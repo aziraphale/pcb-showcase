@@ -28,9 +28,9 @@ ksort($boards, SORT_NATURAL);
 <html>
 <head>
     <title>My PCB Designs</title>
-    <link rel="stylesheet" type="text/css" href="/_assets/style-index.css">
+    <link rel="stylesheet" type="text/css" href="/_assets/style.css">
 </head>
-<body>
+<body class="page-index">
     <h1>My PCB Designs</h1>
 
     <p>Click a link to board design to see full, zoomable SVG renders of both layers of the board.</p>
@@ -46,6 +46,8 @@ ksort($boards, SORT_NATURAL);
             <?php endforeach; ?>
         </ul>
     </article>
+
+    <?php require __DIR__ . '/_assets/footer.php'; ?>
 
     <script src="/_assets/script-index.js"></script>
 </body>
