@@ -1,0 +1,17 @@
+{
+  "name": "pcb-viewer",
+  "version": "0.0.1",
+  "description": "Site to showcase PCBs I've designed/created",
+  "main": "convert.js",
+  "dependencies": {
+    "minimist": "~1.2.0",
+    "path": "~0.12.7",
+    "pcb-stackup": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Gillard <andrew@lorddeath.net>",
+  "license": "MIT"
+}

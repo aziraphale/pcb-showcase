@@ -1,0 +1,17 @@
+bower_components
+node_modules
+
+top.svg
+bottom.svg
+data.json
+
+*.gbl
+*.gbs
+*.gbo
+*.drl
+*.gm1
+*.gtl
+*.gts
+*.gto
+
+*/index.php

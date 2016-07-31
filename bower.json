@@ -1,0 +1,19 @@
+{
+  "name": "PCB Viewer",
+  "version": "0.0.1",
+  "description": "Site to showcase PCBs I've designed/created.",
+  "main": "index.php",
+  "authors": [
+    "Andrew Gillard <andrew@lorddeath.net>"
+  ],
+  "license": "MIT",
+  "homepage": "http://pcb.andrewgillard.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
